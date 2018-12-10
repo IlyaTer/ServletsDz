@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My form</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container" id="cont">
+		<img src="Bender.png">
+                <form id="logform">
+			<div class="dws-input">
+				<div>
+				<input type="text" name="login"
+                                       id="log" placeholder="Login">
+				</div>
+				<div>
+				<input type="password" name="password"
+                                       id="pasw" placeholder="Password">
+				</div>
+			</div>
+			<input type="submit" name="getbut" 
+                               value="Login by GET" 
+                                class="dws-sub" id="getbut">
+			<input type="submit" name="postbut"
+                               value="Login by POST" 
+                                class="dws-sub" id="postbut">
+		</form>
+		
+	</div>
+    <script type="text/javascript" src="ServScript.js"></script>
+</body>
+</html>
